@@ -20,3 +20,23 @@ Garamond (serif)
 Courier New (monospace)
 Brush Script MT (cursive)
 *#
+
+animation-name:example;
+animation-iteration-count:;
+animation-duration:;
+*animation-direction:;:
+    normal - The animation is played as normal (forwards). This is default
+    reverse - The animation is played in reverse direction (backwards)
+    alternate - The animation is played forwards first, then backwards
+    alternate-reverse - The animation is played backwards first, then forwards
+
+*animation-fill-mode:
+    none - Default value. Animation will not apply any styles to the element before or after it is executing
+    forwards - The element will retain the style values that is set by the last keyframe (depends on animation-direction and animation-iteration-count)
+    backwards - The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period
+    both - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions
+
+@keyframes example {#animation code 
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
