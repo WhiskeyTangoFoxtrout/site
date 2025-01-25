@@ -1,0 +1,22 @@
+*hoover:
+  -when the mouse over it
+*focus:
+-psudo-class that could change bgk color#intent for input and when the tab key used
+
+*overflow:
+    -hidden,scroll,auto,visible
+
+*font-family:
+    -"Times New Roman", Times, serif;
+    -Arial, Helvetica, sans-serif
+    -"Lucida Console", "Courier New", monospace
+ #*   -Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+*#
