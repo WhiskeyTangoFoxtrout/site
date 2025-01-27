@@ -1,4 +1,23 @@
-.lodestone{/*want bgd to change color of nav bar*/
+.roundButtton{/*Think this works*/
+
+    outset-style:outset;
+    margin:5px;
+    border-style:inset; 
+    border:5px;
+    border-color:#460a5c;
+    border-radius:75%;/*noice if this works*/
+    
+}
+
+.lodestone-content{/*want bgd to change color of nav bar*/
+
+    backgorund-color:#ebeb23;
+    display:hidden;/*think this hides it*/
+    
+}
+
+.lodestone::hoover{/*Should show when u hoover*/
+    /*working on the dropdownn part*/
 
     margin:15px;
     border:4px;
@@ -13,17 +32,11 @@
     animation-duration:3s;
     animation-iteration-count: infinite;
     animation-direction:alternate;
-    opacity: 0.5;
-    
-}
-
-.lodestone::hoover{
-
-    
+    opacity: 0.5; 
   
 }
 
-.ruff{
+.ruff{/*HTML*/
 
     color:#edae93;
     float: left;
@@ -58,12 +71,26 @@
 
 .Sec1{
 
+    display:inline-grid;
+    background-color:#f5eded;
     margin:30px:
     border-top: 4px double black;
     border-left: 4px double black;
     padding: 20px;
     font-family:"Times New Roman", Times, serif;
     
+}
+
+.printBloccs{/*I should prolly play with this posisition*/
+
+    font-family:"Times New Roman", Times, serif;
+    outest-style:solid;
+    margin:20px;
+    border:15px;
+    border-style:solid;
+    border-color:#00000000;
+    padding:5px;
+        
 }
 
 @TrippyScreen{/*actual animation of the navbar*/
