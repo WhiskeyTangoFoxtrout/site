@@ -1,5 +1,10 @@
 .lodestone{/*want bgd to change color of nav bar*/
 
+    margin:15px;
+    border:4px;
+    border-color:#00000000;
+    border-style:double;
+    padding:20px;
     overflow: hidden;
     list-style-type: none;
     font-family: "Times New Roman", Times, serif; 
@@ -8,7 +13,14 @@
     animation-duration:3s;
     animation-iteration-count: infinite;
     animation-direction:alternate;
+    opacity: 0.5;
     
+}
+
+.lodestone::hoover{
+
+    
+  
 }
 
 .ruff{
@@ -23,32 +35,45 @@
     
 }
 
-.lodestone::hoover{
-
-    
-  
-}
-
-.townSq{
+.townSq{/*This is for the information in the column...*/
 
     overflow: scroll;
+    border-style:double;
+    padding:15px;
     
 }
 
-.Tite{
+.Tite{/*Title of the column*/
 
     font-family:"Brush Script MT",cursive;
+    font-size:96px;
+    display:inline-block;
+    padding:5px;
+    margin:10px;
+    border-style:none;
     
 }
 
-@TrippyScreen{
+/*This is for the sections*/
+
+.Sec1{
+
+    margin:30px:
+    border-top: 4px double black;
+    border-left: 4px double black;
+    padding: 20px;
+    font-family:"Times New Roman", Times, serif;
+    
+}
+
+@TrippyScreen{/*actual animation of the navbar*/
 
     from{background-color:#e3b068;}
     to{background-color:#84f0de;}
     
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){/*mobile screen*/
     .topnav a,.topnav input[type=text]{
         float:none;
         dispaly:block;
