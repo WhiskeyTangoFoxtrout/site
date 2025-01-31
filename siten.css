@@ -1,19 +1,22 @@
-.roundButtton{/*Think this works*/
+/*.roundButtton{Think this works
 
     outset-style:outset;
     margin:5px;
     border-style:inset; 
     border:5px;
     border-color:#460a5c;
-    border-radius:75%;/*noice if this works*/
+    border-radius:75%; noice if this works
     
 }
-
+*/
 .lodestone-content{/*want bgd to change color of nav bar*/
 
     backgorund-color:#ebeb23;
     display:hidden;/*think this hides it*/
-    posistion: absolute;
+    posistion: absolute-top-left;
+    border:15px;
+    border-color:#c27e79;
+    border-radius:75%
     
 }
 
@@ -43,7 +46,7 @@
     float: left;
     display: block;
     text-align: center;
-    padding: 16px 27px;
+    padding: 16px, 27px;
     text-decoration: none;
     font-size: 23px;
     
@@ -72,13 +75,14 @@
 
 .Sec1{
 
-    display:inline-grid;
+    display:fixed-grid;
     background-color:#f5eded;
-    margin:30px:
-    border-top: 4px double black;
-    border-left: 4px double black;
+    margin:30px;
+    border-top: 4px, double, black;
+    border-left: 4px, double, black;
     padding: 20px;
     font-family:"Times New Roman", Times, serif;
+    border-radius:75%;
     
 }
 
